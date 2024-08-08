@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 
-const Header = ({ children, className }: HeaderProps) => {
+const Header = ({ className }: HeaderProps) => {
     return (
         <div className={cn("header", className)}>
             <Link href="/" className="md:flex-1">
@@ -21,7 +21,6 @@ const Header = ({ children, className }: HeaderProps) => {
                     className="mr-2 md:hidden"
                 />
             </Link>
-            {children}
         </div>
     );
 };
