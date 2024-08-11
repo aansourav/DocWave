@@ -3,7 +3,7 @@ import { DeleteModal } from "@/components/DeleteModal";
 import Header from "@/components/Header";
 import Notifications from "@/components/Notifications";
 import { Button } from "@/components/ui/button";
-import { getDocuments } from "@/lib/actions/room.actions";
+import { getDocuments } from "@/lib/actions/room.action";
 import { dateConverter } from "@/lib/utils";
 import { SignedIn, UserButton } from "@clerk/nextjs";
 import { currentUser } from "@clerk/nextjs/server";

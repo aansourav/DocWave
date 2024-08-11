@@ -17,7 +17,7 @@ import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import UserTypeSelector from "./UserTypeSelector";
 import Collaborator from "./Collaborator";
-import { updateDocumentAccess } from "@/lib/actions/room.actions";
+import { updateDocumentAccess } from "@/lib/actions/room.action";
 
 const ShareModal = ({
     roomId,

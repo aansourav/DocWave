@@ -8,9 +8,9 @@ import ActiveCollaborators from "./ActiveCollaborators";
 import { useEffect, useRef, useState } from "react";
 import { Input } from "./ui/input";
 import Image from "next/image";
-import { updateDocument } from "@/lib/actions/room.actions";
 import Loader from "./Loader";
 import ShareModal from "./ShareModal";
+import { updateDocument } from "@/lib/actions/room.action";
 
 const CollaborativeRoom = ({
     roomId,

@@ -1,7 +1,7 @@
 "use client";
 
 import Loader from "@/components/Loader";
-import { getClerkUsers, getDocumentUsers } from "@/lib/actions/user.actions";
+import { getClerkUsers, getDocumentUsers } from "@/lib/actions/user.action";
 import { useUser } from "@clerk/nextjs";
 import {
     ClientSideSuspense,
