@@ -28,7 +28,7 @@ const CollaborativeRoom = ({
     const updateTitleHandler = async (
         e: React.KeyboardEvent<HTMLInputElement>
     ) => {
-        if (e.key === "Enter") {
+        if (e.key == "Enter") {
             setLoading(true);
 
             try {
@@ -93,7 +93,7 @@ const CollaborativeRoom = ({
                                         setDocumentTitle(e.target.value)
                                     }
                                     onKeyDown={updateTitleHandler}
-                                    disable={!editing}
+                                    disabled={!editing}
                                     className="document-title-input"
                                 />
                             ) : (
@@ -111,7 +111,7 @@ const CollaborativeRoom = ({
                                     width={24}
                                     height={24}
                                     onClick={() => setEditing(true)}
-                                    className="pointer"
+                                    className="hover:cursor-pointer hover:scale-105 transition duration-400"
                                 />
                             )}
 
