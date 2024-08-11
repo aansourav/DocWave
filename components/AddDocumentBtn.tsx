@@ -1,6 +1,6 @@
 "use client";
 
-import { createDocument } from "@/lib/actions/room.action";
+import { createDocument } from "@/lib/actions/room.actions";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { Button } from "./ui/button";
@@ -15,7 +15,7 @@ const AddDocumentBtn = ({ userId, email }: AddDocumentBtnProps) => {
             if (room) router.push(`/documents/${room.id}`);
         } catch (error) {
             console.log(error);
-        } 
+        }
     };
 
     return (

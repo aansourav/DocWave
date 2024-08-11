@@ -1,8 +1,8 @@
 "use client";
 
+import { deleteDocument } from "@/lib/actions/room.actions";
 import Image from "next/image";
 import { useState } from "react";
-import { deleteDocument } from "@/lib/actions/room.action";
 
 import {
     Dialog,

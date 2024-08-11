@@ -9,15 +9,15 @@ import {
     DialogTrigger,
 } from "@/components/ui/dialog";
 
+import { updateDocumentAccess } from "@/lib/actions/room.actions";
 import { useSelf } from "@liveblocks/react/suspense";
-import React, { useState } from "react";
-import { Button } from "./ui/button";
 import Image from "next/image";
-import { Label } from "./ui/label";
-import { Input } from "./ui/input";
-import UserTypeSelector from "./UserTypeSelector";
+import { useState } from "react";
 import Collaborator from "./Collaborator";
-import { updateDocumentAccess } from "@/lib/actions/room.action";
+import { Button } from "./ui/button";
+import { Input } from "./ui/input";
+import { Label } from "./ui/label";
+import UserTypeSelector from "./UserTypeSelector";
 
 const ShareModal = ({
     roomId,
