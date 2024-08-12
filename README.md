@@ -19,7 +19,7 @@
 
 ## 🔋 Features
 
-👉 **Authentication**: Secure sign-in/out and session management using GitHub authentication via NextAuth.
+👉 **Authentication**: Secure sign-in/out and session management using Google authentication via Clerk.
 
 👉 **Collaborative Text Editor**: Real-time collaboration allows multiple users to edit the same document simultaneously.
 
